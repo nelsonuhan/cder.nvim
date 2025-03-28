@@ -59,7 +59,7 @@ local opts = {
     return {
       value = line,
       display = function(entry)
-        return ' ' .. line:gsub(vim.uv.os_homedir() .. '/', ''),
+        return ' ' .. line:gsub(vim.uv.os_homedir() .. '/', ''),
           { { { 1, 3 }, 'Directory' } }
       end,
       ordinal = line,
